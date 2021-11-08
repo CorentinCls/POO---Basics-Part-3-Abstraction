@@ -4,7 +4,7 @@ require_once 'HighWay.php';
 
 final class MotorWay extends HighWay
 {
-    public function __construct($nbLane = 1, $maxSpeed = 10)
+    public function __construct($nbLane = 4, $maxSpeed = 130)
     {
         parent::__construct($nbLane, $maxSpeed);
     }
